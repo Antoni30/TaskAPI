@@ -26,6 +26,15 @@ Si la base de datos falla o no se encuetra entrar al apartado de la terminar de 
 Add-Migration InitialCreate
 Update-Database
 ```
+Para  realizar cualquier peticion a nuestra api se tiene que logear en  **api/Login** el cual nos devolver un token.
+Este Token lo debes incluir en **todas las cabezera**  de toda peticion a realizar.
+Se proporciona un usuario:
+```JSON
+{
+  "userName": "Antoni",
+  "password": "123456"
+}
+```
 ## Consideraciones Finales
 Este proyecto sirve como una base sólida para desarrollar API RESTful en C# con .NET 8, utilizando JWT para autenticar todas las solicitudes. 
 Personaliza y expande el proyecto según los requisitos específicos de tu aplicación, manteniendo las mejores prácticas de desarrollo y seguridad. Asegúrate de manejar adecuadamente las excepciones y de
