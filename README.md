@@ -36,6 +36,5 @@ Se proporciona un usuario:
 }
 ```
 ## Consideraciones Finales
-Este proyecto sirve como una base sólida para desarrollar API RESTful en C# con .NET 8, utilizando JWT para autenticar todas las solicitudes. 
-Personaliza y expande el proyecto según los requisitos específicos de tu aplicación, manteniendo las mejores prácticas de desarrollo y seguridad. Asegúrate de manejar adecuadamente las excepciones y de
+Este proyecto proporciona una base sólida para una API RESTful en C# con .NET 8, utilizando JWT para autenticar todas las solicitudes. Puedes expandirlo y personalizarlo según los requisitos específicos de tu aplicación. Además, asegúrate de manejar correctamente las excepciones y agregar validaciones según sea necesario para garantizar la seguridad y la estabilidad de tu aplicación.
 
